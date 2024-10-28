@@ -9,7 +9,7 @@ Resources:
     Properties:
       CodeUri: src/
       Handler: app.lambda_handler
-      Runtime: python3.7
+      Runtime: python3.10
       Timeout: 10
       Role: !GetAtt WorkMailHelloWorldFunctionRole.Arn
       Layers:
